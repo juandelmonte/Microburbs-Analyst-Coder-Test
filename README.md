@@ -17,10 +17,18 @@ First inspected the data to understand property and road relationships. Then cal
    ```
    pip install pandas geopandas numpy shapely
    ```
+
+   if running NN example, more dependencies are needed
+   ```
+   pip install scikit-lear matplotlib seaborn tensorflow
+   ```
+
 2. Run the script:
    ```
    python solution_orientation.py
    ```
+
+   Or execute the notebook.
 
 ## Output
 Two output files are generated:
