@@ -140,9 +140,6 @@ orientation_df = orientation_df.drop(columns=['gnaf_pid'])
 # Save to output file - entire dataset
 orientation_df.to_csv(output_directory / 'property_orientations.csv', index=False)
 
-# Also save a sample of 20 rows as per requirements
-orientation_df.head(20).to_csv(output_directory / 'property_orientations_sample.csv', index=False)
 
 print(f"Saved property orientations to {output_directory / 'property_orientations.csv'}")
-print(f"Saved sample of property orientations to {output_directory / 'property_orientations_sample.csv'}")
 print(f"Found orientations for {len(orientation_df)} properties")
